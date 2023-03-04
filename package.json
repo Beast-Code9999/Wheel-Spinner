@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Beast-Code9999/Wheel-Spinner#readme",
   "devDependencies": {
     "node-sass": "^8.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.3"
   }
 }
