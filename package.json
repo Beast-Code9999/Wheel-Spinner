@@ -1,0 +1,19 @@
+{
+  "name": "wheel-spinner",
+  "version": "1.0.0",
+  "description": "Date:    - Start: 2nd of March 2023",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beast-Code9999/Wheel-Spinner.git"
+  },
+  "author": "Beast Code",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beast-Code9999/Wheel-Spinner/issues"
+  },
+  "homepage": "https://github.com/Beast-Code9999/Wheel-Spinner#readme"
+}
