@@ -1,4 +1,5 @@
-const { JSDOM } = require( "jsdom" );
-const { window } = new JSDOM( "" );
-const $ = require( "jquery" )( window ); 
+import * as $ from 'jquery'
 
+
+
+$("header").hide();
