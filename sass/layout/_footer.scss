@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
 .footer {
     width: 100%;
-    height: 3rem;
+    height: 10rem;
     background-color: red;
     position: absolute;
     bottom: 0;
     left: 0; 
+    
 
     &__div {
         @include flex( row, center, center);
@@ -13,14 +16,17 @@
 
     &__text {
         font-size: 3rem;
+        font-family: 'Titan One', cursive;
+        font-weight: 400;
+        // text-transform: uppercase;
     }
 
     &__img {
-        width: 4rem;
+        width: 3.5rem;
         transition: transform .7s ease-in-out;
 
         &:hover {
-            transform: rotate(360deg) scale(1.5);
+            transform: rotate(360deg) scale(1.3);
             cursor: pointer;
           }
     }
