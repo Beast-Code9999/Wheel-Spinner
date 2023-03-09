@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
 .header {
     width: 100%;
     height: auto;
     position: absolute;
     top: 0;
-    padding: 4rem 0;
+    padding: 6rem 0 0 0;
     text-align: center;
-    
+    font-size: 4rem;
+    font-family: 'Climate Crisis', cursive;
+    color: $color-primary-dark;
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 @keyframes wave {
   0% {
@@ -29,8 +30,11 @@ body {
   height: auto;
   position: absolute;
   top: 0;
-  padding: 4rem 0;
-  text-align: center; }
+  padding: 6rem 0 0 0;
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Climate Crisis', cursive;
+  color: #296164; }
 
 .footer {
   width: 100%;
