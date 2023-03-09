@@ -3,11 +3,12 @@
 .footer {
     width: 100%;
     height: 10rem;
-    background-color: red;
+    background-color: $color-primary-dark;
     position: absolute;
     bottom: 0;
     left: 0; 
-    
+    @include flex(row, center, center);
+
 
     &__div {
         @include flex( row, center, center);
@@ -18,6 +19,7 @@
         font-size: 3rem;
         font-family: 'Titan One', cursive;
         font-weight: 400;
+        color: white;
         // text-transform: uppercase;
     }
 
@@ -31,3 +33,31 @@
           }
     }
 }
+
+footer .wave {
+    width: 100%;
+    height: 5rem;
+    background-color: red;
+    position: absolute;
+    top: -5rem;
+    left: 0;
+    background: url(./img/wave.png);
+    background-size: 100rem 10rem;
+}
+
+footer .wave#wave-1 {
+    z-index: 100;
+    opacity: 1;
+    bottom: 0;
+    animation: wave 4s linear infinite;
+}
+
+@keyframes wave {
+    0% {
+        background-position-x: 100rem;
+    }
+    100% {
+        background-position-x: 0px;
+    }
+}
+

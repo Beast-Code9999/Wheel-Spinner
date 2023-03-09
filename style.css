@@ -15,10 +15,14 @@ body {
 .footer {
   width: 100%;
   height: 10rem;
-  background-color: red;
+  background-color: #296164;
   position: absolute;
   bottom: 0;
-  left: 0; }
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
   .footer__div {
     display: flex;
     flex-direction: row;
@@ -28,13 +32,36 @@ body {
   .footer__text {
     font-size: 3rem;
     font-family: 'Titan One', cursive;
-    font-weight: 400; }
+    font-weight: 400;
+    color: white; }
   .footer__img {
     width: 3.5rem;
     transition: transform .7s ease-in-out; }
     .footer__img:hover {
       transform: rotate(360deg) scale(1.3);
       cursor: pointer; }
+
+footer .wave {
+  width: 100%;
+  height: 5rem;
+  background-color: red;
+  position: absolute;
+  top: -5rem;
+  left: 0;
+  background: url(./img/wave.png);
+  background-size: 100rem 10rem; }
+
+footer .wave#wave-1 {
+  z-index: 100;
+  opacity: 1;
+  bottom: 0;
+  animation: wave 4s linear infinite; }
+
+@keyframes wave {
+  0% {
+    background-position-x: 100rem; }
+  100% {
+    background-position-x: 0px; } }
 
 body {
   width: 100vw;
