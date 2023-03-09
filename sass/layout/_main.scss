@@ -1,0 +1,9 @@
+.main {
+    width: 65rem;
+    height: 40rem;
+    @include flex(column, center, center);
+    border: 2px solid $color-gray;
+}
+
+
+

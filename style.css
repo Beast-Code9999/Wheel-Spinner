@@ -87,6 +87,15 @@ footer .wave#wave-4 {
   bottom: 0;
   animation: wave2 2.5s linear infinite; }
 
+.main {
+  width: 65rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #dbdde1; }
+
 body {
   width: 100vw;
   height: 100vh;
