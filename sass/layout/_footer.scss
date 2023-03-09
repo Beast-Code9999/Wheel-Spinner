@@ -17,5 +17,11 @@
 
     &__img {
         width: 4rem;
+        transition: transform .7s ease-in-out;
+
+        &:hover {
+            transform: rotate(360deg) scale(1.5);
+            cursor: pointer;
+          }
     }
 }

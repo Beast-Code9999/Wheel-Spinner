@@ -27,7 +27,11 @@ body {
   .footer__text {
     font-size: 3rem; }
   .footer__img {
-    width: 4rem; }
+    width: 4rem;
+    transition: transform .7s ease-in-out; }
+    .footer__img:hover {
+      transform: rotate(360deg) scale(1.5);
+      cursor: pointer; }
 
 body {
   width: 100vw;
