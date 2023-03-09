@@ -46,18 +46,17 @@ footer .wave {
 }
 
 footer .wave#wave-1 {
-    z-index: 100;
+    z-index: 4;
     opacity: 1;
     bottom: 0;
     animation: wave 4s linear infinite;
 }
 
-@keyframes wave {
-    0% {
-        background-position-x: 100rem;
-    }
-    100% {
-        background-position-x: 0px;
-    }
+footer .wave#wave-2 {
+    z-index: 3;
+    opacity: .5;
+    bottom: 0;
+    animation: wave2 4s linear infinite;
 }
+
 
