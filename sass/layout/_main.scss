@@ -14,6 +14,7 @@
         width: 100%;
         height: 11.765%;
         border-bottom: 2px solid $color-gray;
+        @include flex( row, space-between, center );
     }
 
     &--middle {
@@ -35,5 +36,21 @@
 }
 
 .mode {
-    
+    margin: 4px 8px 0 8px;
+    @include flex( row, center, center );
+    gap: 1rem;
+
+    &__number {
+        font-size: $font-default;
+        font-weight: 700;
+    }
+
+    &__button {
+
+    }
+
+    &__fidget {
+        font-size: $font-default;
+        font-weight: 700;
+    }
 }
