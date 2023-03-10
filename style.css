@@ -159,8 +159,11 @@ footer .wave#wave-4 {
   height: 11.765%;
   border-top: 2px solid #dbdde1; }
 
+.wheel-numbers {
+  margin: 4px 16px 0 16px; }
+
 .mode {
-  margin: 4px 8px 0 8px;
+  margin: 4px 16px 0 16px;
   display: flex;
   flex-direction: row;
   justify-content: center;

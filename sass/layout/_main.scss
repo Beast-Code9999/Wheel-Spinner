@@ -15,6 +15,7 @@
         height: 11.765%;
         border-bottom: 2px solid $color-gray;
         @include flex( row, space-between, center );
+        
     }
 
     &--middle {
@@ -31,12 +32,11 @@
 }
 
 .wheel-numbers {
-
-
+    margin: 4px 16px 0 16px;
 }
 
 .mode {
-    margin: 4px 8px 0 8px;
+    margin: 4px 16px 0 16px;
     @include flex( row, center, center );
     gap: 1rem;
 
