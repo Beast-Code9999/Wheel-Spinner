@@ -3,7 +3,8 @@
     height: 40rem;
     @include flex(column, space-between, center);
     border: 2px solid $color-gray;
-    
+    border-radius: 1rem;
+    overflow: hidden;
 }
 
 
@@ -23,6 +24,7 @@
     &--bottom {
         width: 100%;
         height: 11.765%;
+        border-top: 2px solid $color-gray;
     }
 }
 
