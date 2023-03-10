@@ -46,7 +46,8 @@
     }
 
     &__button {
-
+        position: relative;
+        @include flex( row, center, center );
     }
 
     &__fidget {

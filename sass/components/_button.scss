@@ -1,0 +1,35 @@
+input[type="checkbox"] {
+    position: relative;
+    width: 4rem;
+    height: 2rem;
+    -webkit-appearance: none;
+    background: $color-gray-dark;
+    outline: none;
+    border-radius: 1rem;
+    box-shadow: inset 0 0 5px rgba($color: black, $alpha: .2);
+    
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+input:checked[type="checkbox"] { 
+
+}
+input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: $color-gray;
+    box-shadow: 0 0 2px rgba($color: black, $alpha: .2);
+    transition: .3S;
+}
+
+input:checked[type="checkbox"]::before {
+    left: 75%;
+}
