@@ -160,7 +160,16 @@ footer .wave#wave-4 {
   border-top: 2px solid #dbdde1; }
 
 .wheel-numbers {
-  margin: 4px 16px 0 16px; }
+  margin: 4px 16px 0 16px;
+  border: none;
+  appearance: none;
+  padding: 0.5rem 1rem;
+  background-color: none;
+  font-weight: 700; }
+  .wheel-numbers:focus {
+    color: blue;
+    border: none;
+    outline: none; }
 
 .mode {
   margin: 4px 16px 0 16px;
