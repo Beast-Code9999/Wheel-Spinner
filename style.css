@@ -148,6 +148,11 @@ footer .wave#wave-4 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center; }
+  .section--top__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
 
 .section--middle {
   width: 100%;
@@ -160,16 +165,21 @@ footer .wave#wave-4 {
   border-top: 2px solid #dbdde1; }
 
 .wheel-numbers {
-  margin: 4px 16px 0 16px;
+  margin: 0 0 0 16px;
+  padding: 0.5rem 0 0.5rem 1rem;
   border: none;
   appearance: none;
-  padding: 0.5rem 1rem;
   background-color: none;
   font-weight: 700; }
+  .wheel-numbers__icon {
+    width: 2rem; }
   .wheel-numbers:focus {
-    color: blue;
+    color: #0000ff;
     border: none;
     outline: none; }
+
+.wheel-numbers:focus + .wheel-numbers__icon {
+  filter: invert(9%) sepia(99%) saturate(6763%) hue-rotate(247deg) brightness(95%) contrast(145%); }
 
 .mode {
   margin: 4px 16px 0 16px;
