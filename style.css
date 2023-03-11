@@ -64,7 +64,8 @@ input:checked[type="checkbox"]::before {
   text-align: center;
   font-size: 4rem;
   font-family: 'Climate Crisis', cursive;
-  color: #296164; }
+  color: #296164;
+  user-select: none; }
 
 .footer {
   width: 100%;
@@ -230,7 +231,7 @@ footer .wave#wave-4 {
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   position: relative;
   display: flex;
   flex-direction: column;
