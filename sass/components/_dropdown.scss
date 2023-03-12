@@ -1,3 +1,18 @@
 #dropdown-checkbox {
-    
+    appearance: none !important;
+    display: none;
 }
+
+.dropdown__icon {
+    transition: transform .5s;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+#dropdown-checkbox:checked ~ label > img {
+    transform: rotateX(180deg);
+}
+
+

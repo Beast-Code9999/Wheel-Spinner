@@ -55,6 +55,18 @@ input[type="checkbox"]::before {
 input:checked[type="checkbox"]::before {
   left: 75%; }
 
+#dropdown-checkbox {
+  appearance: none !important;
+  display: none; }
+
+.dropdown__icon {
+  transition: transform .5s; }
+  .dropdown__icon:hover {
+    cursor: pointer; }
+
+#dropdown-checkbox:checked ~ label > img {
+  transform: rotateX(180deg); }
+
 .header {
   width: 100%;
   height: auto;
