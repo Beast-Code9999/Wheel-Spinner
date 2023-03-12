@@ -1,6 +1,5 @@
 body {
     width: 100vw;   
-    height: 110vh;
     position: relative;
     @include flex(column, center, center);
 }

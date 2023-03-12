@@ -1,8 +1,37 @@
+.dropdown {
+    width: 100%;
+    height: 100%;
+    @include flex( row, center, center );
+    position: relative;
+
+    &__icon {
+        width: 2.4rem;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.dropdown__button {
+    width: 100%;
+    position: absolute; 
+    text-align: center;
+    bottom: 1rem;
+}
+
 #dropdown-checkbox {
     appearance: none !important;
     display: none;
 }
+.dropdown__label {
+    width: 100%;
+    display: block;
 
+    &:hover {
+        cursor: pointer;
+    }
+}
 .dropdown__icon {
     transition: transform .5s;
 
@@ -10,16 +39,6 @@
         cursor: pointer;
     }
 }
-
-.dropdown__label {
-    width: 100%;
-    text-align: center;
-
-    &:hover {
-        cursor: pointer;
-    }
-}
-
 #dropdown-checkbox:checked ~ label > img {
     transform: rotateX(180deg);
 }
