@@ -3,6 +3,7 @@
     height: 100%;
     @include flex( row, center, center );
     position: relative;
+    padding-bottom: 5rem;
 
     &__icon {
         width: 2.4rem;
@@ -18,6 +19,7 @@
     position: absolute; 
     text-align: center;
     bottom: 1rem;
+    border-top: 2px solid $color-gray;
 }
 
 #dropdown-checkbox {

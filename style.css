@@ -62,7 +62,8 @@ input:checked[type="checkbox"]::before {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  position: relative; }
+  position: relative;
+  padding-bottom: 5rem; }
   .dropdown__icon {
     width: 2.4rem; }
   .dropdown:hover {
@@ -72,7 +73,8 @@ input:checked[type="checkbox"]::before {
   width: 100%;
   position: absolute;
   text-align: center;
-  bottom: 1rem; }
+  bottom: 1rem;
+  border-top: 2px solid #dbdde1; }
 
 #dropdown-checkbox {
   appearance: none !important;
@@ -180,7 +182,7 @@ footer .wave#wave-4 {
 
 .section--top {
   width: 100%;
-  height: 11.765%;
+  height: 4.8rem;
   border-bottom: 2px solid #dbdde1;
   display: flex;
   flex-direction: row;
@@ -194,7 +196,7 @@ footer .wave#wave-4 {
 
 .section--middle {
   width: 100%;
-  height: 50rem;
+  height: 26.5rem;
   background-color: #00beac; }
 
 .section--bottom {
@@ -241,7 +243,7 @@ footer .wave#wave-4 {
 
 .spin {
   width: 100%;
-  height: 50%;
+  height: 4.8rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
