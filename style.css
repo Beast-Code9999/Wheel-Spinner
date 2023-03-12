@@ -64,6 +64,12 @@ input:checked[type="checkbox"]::before {
   .dropdown__icon:hover {
     cursor: pointer; }
 
+.dropdown__label {
+  width: 100%;
+  text-align: center; }
+  .dropdown__label:hover {
+    cursor: pointer; }
+
 #dropdown-checkbox:checked ~ label > img {
   transform: rotateX(180deg); }
 

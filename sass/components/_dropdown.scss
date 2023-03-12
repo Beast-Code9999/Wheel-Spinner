@@ -11,6 +11,15 @@
     }
 }
 
+.dropdown__label {
+    width: 100%;
+    text-align: center;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
 #dropdown-checkbox:checked ~ label > img {
     transform: rotateX(180deg);
 }
