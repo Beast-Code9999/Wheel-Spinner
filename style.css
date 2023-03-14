@@ -57,7 +57,7 @@ input:checked[type="checkbox"]::before {
 
 .dropdown {
   width: 100%;
-  height: auto;
+  min-height: 4.8rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -72,7 +72,7 @@ input:checked[type="checkbox"]::before {
   width: 100%;
   position: absolute;
   text-align: center;
-  bottom: 1rem;
+  bottom: 0;
   border-top: 2px solid #dbdde1; }
 
 #dropdown-checkbox {
@@ -81,7 +81,11 @@ input:checked[type="checkbox"]::before {
 
 .dropdown__label {
   width: 100%;
-  display: block; }
+  height: 4.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
   .dropdown__label:hover {
     cursor: pointer; }
 
