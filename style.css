@@ -110,7 +110,8 @@ input:checked[type="checkbox"]::before {
   height: 23.2rem;
   background-color: lightcoral;
   border-radius: 50%;
-  display: block; }
+  display: block;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4); }
 
 .header {
   width: 100%;
